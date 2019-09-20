@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Language Basics</title>
+    </head> 
+    <body>
+        <h1>Практическая работа 1</h1>
+        <p1>Антон, Иван и Мария играют в баскетбол за разные команды. В результате трех игр команда Антона набрала 89, 120 и 103 очков.
+        Команда Ивана набрала 116, 94 и 123 очка. Команда Марии - 97, 134 и 105 очков. вычеслить среднее количество очков. Вывести сообщение вида "Name набрал больше очков".</p1>
+        <h2>Использовать вложенные условия и логические операторы.</h2>
+    </body>
+    <script>
+        team_anton = (89+120+103)/3;
+        team_ivan = (116+94+123)/3;
+        team_marii = (97+134+105)/3;
+        if ((team_anton>team_ivan) && (team_anton>team_marii)) {
+            document.write("Команда Антона набрала больше очков");
+        } else if ((team_ivan>team_anton) && (team_ivan>team_marii)) {
+            document.write("Команда Ивана набрала больше очков");
+        } else document.write("Команда Марии набрала больше очков");
+    </script>
+    
+</html>
