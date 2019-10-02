@@ -180,12 +180,21 @@ age(ageKatya, dateNext);
 /* return
 
 function summ(a, b){
+<<<<<<< HEAD
+
+return a+b;
+=======
     return a+b;
+>>>>>>> 4eafadc0641491aa78a0ddca23a7aa86b591d428
 }
 let summa
 
 summa = summ(10, 30);
 console.log(summa);
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4eafadc0641491aa78a0ddca23a7aa86b591d428
 */
 
 
@@ -219,6 +228,79 @@ function age(a,b) {
 age(ageAnton, ageKatya);
 */
 
+<<<<<<< HEAD
+// Лекция 5 "Объекты, их свойства и методы"
+
+
+// Объявление объекта
+// let Ivan = new Object(); // Конструктор объекта
+// let Andrey ={}; // литерал объекта
+
+/*
+
+Ключи объекта
+
+let Ivan = {
+    name: "Ivan",
+    age: 23,
+    job: "student"
+}
+
+console.log(Ivan.age);
+console.log(Ivan);
+*/
+
+
+//метод this
+/*
+let yearN = 2019;
+function age() {
+    this.age = yearN - this.year;
+}
+
+let Ivan = {
+    name: "Ivan",
+    year: 1992,
+    job: "student",    
+}
+
+Ivan.age = age;
+
+console.log(Ivan);
+*/
+
+/*
+let a = {name: "Ann"};
+let b = {name:"Ben"};
+
+function nameA(){
+    console.log(this.name);
+}
+
+a.f = nameA;
+b.f = nameA;
+a.f();
+b.f();
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+>>>>>>> 4eafadc0641491aa78a0ddca23a7aa86b591d428
 
 
 
