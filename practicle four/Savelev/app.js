@@ -59,8 +59,9 @@ $("#current-1").html(score2);
 }
 
 if($('.player-0-panel').hasClass('active')){
-$("#current-0").html(score1);
  score1=score1+z+1;
+$("#current-0").html(score1);
+ 
 }
 
 });
