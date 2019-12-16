@@ -15,12 +15,12 @@
                     Бюджет на <span class="budget__title--month">%month%</span>:
                 </div>
                 
-                <div class="budget__value">%value%</div>
+                <div class="budget__value">500</div>
                 
                 <div class="budget__income clearfix">
                     <div class="budget__income--text">Доходы</div>
                     <div class="right">
-                        <div class="budget__income--value">%value%</div>
+                        <div class="budget__income--value">0</div>
                         <div class="budget__income--percentage">&nbsp;</div>
                     </div>
                 </div>
@@ -28,8 +28,8 @@
                 <div class="budget__expenses clearfix">
                     <div class="budget__expenses--text">Расходы</div>
                     <div class="right clearfix">
-                        <div class="budget__expenses--value">- %value%</div>
-                        <div class="budget__expenses--percentage">%percentage%</div>
+                        <div class="budget__expenses--value">0</div>
+                        <div class="budget__expenses--percentage"></div>
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                     </select>
                     <input type="text" class="add__description" placeholder="Описание">
                     <input type="number" class="add__value" placeholder="Деньги">
-                    <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                    <button class="add__btn"><i class="ion-ios-checkmark-outline">Добавить</i></button>
                 </div>
             </div>
             
@@ -117,7 +117,10 @@
             
             
         </div>
-
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
         <script src="app.js"></script>
     </body>
 </html>
